@@ -3,7 +3,6 @@ import React from "react"
 import  ReactDOM from "react-dom/client"
 import NavBar from "./Components/Navbar"
 import MainContent from "./components/MainContent"
-import Footer from "./Components/Footer"
 import './index.css'
 
 
@@ -16,7 +15,7 @@ const Page = () => {
 
         <MainContent />,
         
-        <Footer />
+        
     </div>   
     )
 }
